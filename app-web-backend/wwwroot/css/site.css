@@ -69,3 +69,27 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+.btn-log {
+    padding: 10px 30px;
+    background: rgb(230,63,251);
+    background: linear-gradient(90deg, rgba(230,63,251,1) 4%, rgba(154,63,251,1) 52%, rgba(104,63,208,1) 83%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: .7cm;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+    .btn-log:hover {
+        background-color: white;
+        border: 2px solid rgba(104,63,208,1);
+        color: rgba(104,63,208);
+        background: white;
+    }
+
+.display-4 {
+    margin-bottom: 0.5cm;
+}
