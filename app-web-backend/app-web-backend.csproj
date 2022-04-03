@@ -4,14 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>app_web_backend</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
-    <ApplicationInsightsResourceId>/subscriptions/46f8b18b-fdc7-4bb5-8a31-fe141c439b02/resourceGroups/Astrocal/providers/microsoft.insights/components/Astrocal</ApplicationInsightsResourceId>
-    <UserSecretsId>02b89805-3600-4d17-a3e1-abf02daac025</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.0.0" />
-    <PackageReference Include="Azure.Identity" Version="1.4.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="6.0.3" />
