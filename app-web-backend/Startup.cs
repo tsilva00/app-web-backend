@@ -30,6 +30,7 @@ namespace app_web_backend
             );
 
             services.AddControllersWithViews();
+            services.AddApplicationInsightsTelemetry(Configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
