@@ -43,7 +43,7 @@ namespace app_web_backend.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Dados", (string)null);
+                    b.ToTable("Dados1", (string)null);
                 });
 #pragma warning restore 612, 618
         }
