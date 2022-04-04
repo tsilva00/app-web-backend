@@ -5,7 +5,7 @@ using System.Diagnostics;
 namespace app_web_backend.Models
 {
     [Table("Dados")]
-    public class Dados
+    public class Dados1
     {
         [Key]
         [Required(ErrorMessage = "Obrigatório Informar o Usuário!")]

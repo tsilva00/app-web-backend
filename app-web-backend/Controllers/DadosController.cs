@@ -53,7 +53,7 @@ namespace app_web_backend.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,CEP,")] Dados dados)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,CEP,")] Dados1 dados)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace app_web_backend.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Nome,Email,Senha,CEP")] Dados dados)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Nome,Email,Senha,CEP")] Dados1 dados)
         {
             if (id != dados.Id)
             {
