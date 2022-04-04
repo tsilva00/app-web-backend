@@ -11,7 +11,7 @@ using app_web_backend.Models;
 namespace app_web_backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220404052847_Addproperty")]
+    [Migration("20220404053951_Addproperty")]
     partial class Addproperty
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
