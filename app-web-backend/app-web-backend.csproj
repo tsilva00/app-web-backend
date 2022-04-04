@@ -4,6 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>app_web_backend</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <ApplicationInsightsResourceId>/subscriptions/46f8b18b-fdc7-4bb5-8a31-fe141c439b02/resourceGroups/Astrocal/providers/microsoft.insights/components/Astrocal</ApplicationInsightsResourceId>
+    <UserSecretsId>58ed2a0d-83eb-4abb-bace-25203383b54a</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
   </PropertyGroup>
 
   <ItemGroup>

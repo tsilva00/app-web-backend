@@ -29,9 +29,6 @@ namespace app_web_backend.Migrations
                     b.Property<int>("CEP")
                         .HasColumnType("int");
 
-                    b.Property<bool>("Done")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

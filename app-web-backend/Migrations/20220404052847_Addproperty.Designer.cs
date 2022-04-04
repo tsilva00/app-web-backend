@@ -11,8 +11,8 @@ using app_web_backend.Models;
 namespace app_web_backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220404031846_AddProperty")]
-    partial class AddProperty
+    [Migration("20220404052847_Addproperty")]
+    partial class Addproperty
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,9 +30,6 @@ namespace app_web_backend.Migrations
 
                     b.Property<int>("CEP")
                         .HasColumnType("int");
-
-                    b.Property<bool>("Done")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Email")
                         .IsRequired()

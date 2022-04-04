@@ -53,7 +53,7 @@
               "location": "[parameters('resourceLocation')]",
               "name": "app-web-backenddbserver",
               "type": "Microsoft.Sql/servers",
-              "apiVersion": "2020-11-01-preview"
+              "apiVersion": "2017-10-01-preview"
             },
             {
               "sku": {

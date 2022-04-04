@@ -4,7 +4,7 @@
 
 namespace app_web_backend.Migrations
 {
-    public partial class D00 : Migration
+    public partial class Addproperty : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

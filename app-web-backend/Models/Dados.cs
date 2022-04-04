@@ -22,6 +22,5 @@ namespace app_web_backend.Models
 
         [Required(ErrorMessage = "Obrigatório Informar o CEP!")]
         public int CEP { get; set; }
-        public bool Done { get; set; }
     }
     }
