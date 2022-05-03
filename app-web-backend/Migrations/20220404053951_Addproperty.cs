@@ -9,7 +9,7 @@ namespace app_web_backend.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Dados1",
+                name: "Dados",
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
@@ -20,14 +20,14 @@ namespace app_web_backend.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Dados1", x => x.Id);
+                    table.PrimaryKey("PK_Dados", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Dados1");
+                name: "Dados");
         }
     }
 }

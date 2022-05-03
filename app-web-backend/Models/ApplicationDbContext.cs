@@ -9,6 +9,6 @@ namespace app_web_backend.Models
 
         }
 
-        public DbSet<Dados1> Dados { get; set; }
+        public DbSet<Dados> Dados { get; set; }
     }
 }
